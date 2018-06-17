@@ -164,7 +164,7 @@ if (!Object.values) {
             function createRarityImg(rarityList) {
                 var rarityImg = [];
                 rarityImg = rarityList.map(function (value) {
-                    var img = createImg("data/Icon/Star_" + value + "_Left.png", "★" + value, 90, 22, unchecked);
+                    var img = createImg("Data/Icon/Star_" + value + "_Left.png", "★" + value, 90, 22, unchecked);
                     if (value === 5) {
                         img.className = checked;
                     }
