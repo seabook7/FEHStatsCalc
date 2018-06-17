@@ -1,0 +1,116 @@
+div.language {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+div.remove {
+    animation: removeLanguage 1s ease-out forwards;
+}
+@keyframes removeLanguage {
+    from { top: 0; opacity: 1; }
+    to { top: -100%; opacity: 0.25; }
+}
+table.language {
+    border-spacing: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+td.language {
+    background-color: #0078D7;
+    border: 2px solid #0078D7;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+    height: 44px;
+    text-align: center;
+    width: 236px;
+}
+td.language:hover {
+    border-color: #7FBBEB;
+}
+body.normal {
+    background-color: white;
+}
+table.normal {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+}
+td {
+    border: solid 1px black;
+    padding: 3px;
+}
+td.option {
+    border-width: 0;
+    height: 30px;
+    line-height: 0;
+    padding: 0;
+}
+fieldset {
+    border-radius: 9px;
+}
+fieldset.img {
+    line-height: 0;
+}
+legend {
+    line-height: 24px;
+}
+img.checked {
+    cursor: pointer;
+}
+img.unchecked {
+    cursor: pointer;
+    opacity: 0.25;
+}
+img.unchecked:hover {
+    animation: imgHover 0.5s ease-out infinite alternate;
+}
+@keyframes imgHover {
+    from { opacity: 0.25; }
+    to { opacity: 1; }
+}
+button {
+    height: 32px;
+    padding: 0;
+    width: 64px;
+}
+td.imgBigHead{
+    text-align: center;
+    width: 73px;
+}
+td.imgBig {
+    line-height: 0;
+    padding: 0;
+    text-align: center;
+    width: 79px;
+}
+td.imgHead{
+    text-align: center;
+    width: 24px;
+}
+td.img {
+    line-height: 0;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+}
+td.nameBig {
+    width: 168px;
+}
+td.name {
+    width: 315px;
+}
+td.statBig {
+    font-size: 24pt;
+    text-align: right;
+    width: 48px;
+}
+td.stat {
+    text-align: right;
+    width: 48px;
+}
