@@ -11,18 +11,23 @@
         var img = doc.createElement("img");
         img.src = iconPath + "/" + iconFileName[i] + "." + extensionName;
         img.alt = iconFileName[i];
-        img.style.display = "none";
-        doc.body.appendChild(img);
+        //img.style.display = "none";
+        //doc.body.appendChild(img);
         img.onload = function () {
             i += 1;
-            div2.style.width = (Math.floor(i / length * 100) + "%");
+            //console.log(Math.floor(i / length * 100) + "%");
+            div2.style.width = Math.floor(i / length * 100) + "%";
             if (i < length) {
                 loadImg();
             }
         };
     };
-    div1.style = "width: 320px; height: 20px; border: 2px solid black;";
-    div2.style = "width: 0; height: 100%; background-color: blue";
+    div1.style.width = "320px";
+    div1.style.height = "20px";
+    div1.style.border = "2px solid black";
+    div2.style.width = "0";
+    div2.style.height = "100%";
+    div2.style.backgroundColor = "blue";
     div1.appendChild(div2);
     doc.body.appendChild(div1);
     preload();
