@@ -36,6 +36,20 @@ if (!Object.values) {
     var options;
     var buttons = [doc.createElement("button"), doc.createElement("button")];
     var heroesTable = doc.createElement("table");
+    var preloadImg = function (files, path, extension, threadNumber) {
+        function loadNextImg() {
+            if (files.length > 0) {
+                var img = doc.createElement("img");
+                img.src = path + files.shift() + extension;
+                img.alt = "";
+                img.onload = loadNextImg;
+            }
+        }
+        while (threadNumber > 0) {
+            loadNextImg();
+            threadNumber -= 1;
+        }
+    };
     var getLangIndexes = function () {
         if (debug) {
             log("Available Languages:");
@@ -310,6 +324,16 @@ if (!Object.values) {
         tables.forEach(function (table) {
             doc.body.appendChild(table);
         });
+        if (location.protocol !== "file:") {
+            preloadImg(
+                feh.heroes.map(function (hero) {
+                    return hero.id;
+                }),
+                "Data/Face/",
+                ".png",
+                4
+            );
+        }
         if (debug) {
             log("Initialize: OK");
         }
@@ -338,6 +362,20 @@ if (!Object.values) {
         });
         div.appendChild(table);
         doc.body.appendChild(div);
+        if (location.protocol !== "file:") {
+            preloadImg(
+                [
+                    "Sword", "Lance", "Axe", "RedBow", "BlueBow", "GreenBow", "Bow", "Dagger", "RedTome", "BlueTome", "GreenTome", "Staff", "RedBreath", "BlueBreath", "GreenBreath", "ColorlessBreath",
+                    "Infantry", "Armored", "Cavalry", "Flying",
+                    "Star_1_Left", "Star_2_Left", "Star_3_Left", "Star_4_Left", "Star_5_Left",
+                    "Increase", "Decrease", "Plus", "Weapon",
+                    "Icon_ReliancePlayerA_L", "Icon_ReliancePlayerB_L", "Icon_ReliancePlayerC_L", "Icon_ReliancePlayerS_L"
+                ],
+                "Data/Icon/",
+                ".png",
+                4
+            );
+        }
     };
     var clearHeroesTable = function () {
         if (heroesTable.hasChildNodes()) {

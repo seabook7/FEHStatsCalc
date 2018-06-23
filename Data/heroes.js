@@ -177,7 +177,9 @@
     createHero("Seth_M_Normal", [2017, 8, 15], ["真銀の聖騎士", "Silver Knight", "純銀的聖騎士"], ["ゼト", "Seth", "賽特"], sword, cavalry, [16, 6, 5, 6, 3], [5, 7, 7, 7, 4], [6, 8, 8, 12], 3);
     createHero("Lute_F_Normal", [2017, 11, 15], ["奇知なる魔道", "Prodigy", "智見非凡的魔道"], ["ルーテ", "Lute", "盧特"], blueTome, infantry, [14, 8, 6, 1, 6], [4, 8, 7, 2, 8], [4, 6, 9, [0, 14, 3, 0, 0]]);
     createHero("Heanius_M_Normal", [2017, 8, 15], ["策謀の王子", "Regal Strategician", "謀略的王子"], ["ヒーニアス", "Innes", "西尼亞斯"], bow, infantry, [14, 7, 6, 2, 5], [5, 7, 8, 1, 7], [4, 6, 9, 14]);
+    createHero("Heanius_M_Swim18", [2018, 6, 21], ["実は泳げる", "Flawless Form", "其實會游泳"], ["ヒーニアス", "Innes", "西尼亞斯"], axe, flying, [16, 7, 7, 4, 3], [7, 7, 9, 7, 3], [6, 8, 10, 14]);
     createHero("Turner_F_Normal", [2017, 8, 15], ["天かける王女", "Winged Princess", "翱翔天際的公主"], ["ターナ", "Tana", "塔娜"], lance, flying, [15, 6, 8, 4, 4], [5, 8, 8, 5, 5], [6, 8, 8, 16]);
+    createHero("Turner_F_Swim18", [2018, 6, 21], ["弾けるプリンセス", "Noble and Nimble", "奔放的公主"], ["ターナ", "Tana", "塔娜"], redTome, flying, [14, 5, 8, 3, 4], [5, 8, 8, 3, 5], [4, 6, 9, [0, 14, 3, 0, 0]]);
     createHero("Lyon_M_Normal", [2018, 1, 26], ["影の皇子", "Shadow Prince", "影之皇子"], ["リオン", "Lyon", "利昂"], redTome, infantry, [17, 8, 2, 2, 6], [6, 7, 4, 6, 6], [4, 6, 9, 14], 3, Infinity);
     createHero("Walter_M_Normal", [2017, 8, 21], ["月長石", "Dark Moonstone", "月光石"], ["ヴァルター", "Valter", "瓦爾達"], lance, flying, [16, 6, 7, 6, 2], [7, 7, 6, 8, 3], [6, 8, 11, [0, 16 + 2, 2, 0, 0]], 3, Infinity);
     createHero("Amelia_F_Normal", [2017, 8, 15], ["戦場の花", "Rose of the War", "戰場之花"], ["アメリア", "Amelia", "亞美利雅"], axe, armored, [17, 4, 6, 7, 2], [9, 9, 8, 8, 5], [6, 8, 10, 14]);
@@ -223,6 +225,7 @@
     createHero("Sort_M_Normal", [2017, 2, 2], ["碧の騎士", "Viridian Knight", "碧綠騎士"], ["ソール", "Stahl", "索爾"], sword, cavalry, [17, 5, 5, 6, 3], [8, 7, 5, 6, 4], [6, 8, 8, 12], 1);
     createHero("Tiamo_F_Normal", [2017, 2, 2], ["若き天才騎士", "Knight Paragon", "年輕的天才騎士"], ["ティアモ", "Cordelia", "蒂亞莫"], lance, flying, [16, 7, 7, 3, 4], [6, 8, 8, 4, 5], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0]], 3);
     createHero("Tiamo_F_Wedding17", [2017, 5, 30], ["完全無欠の花嫁", "Perfect Bride", "完美的新娘"], ["ティアモ", "Cordelia", "蒂亞莫"], bow, infantry, [15, 7, 7, 2, 3], [5, 8, 8, 3, 4], [4, 6, 8, 12]);
+    createHero("Tiamo_F_Swim18", [2018, 6, 21], ["水着姿の天才騎士", "Knight Paradise", "身著泳裝的天才騎士"], ["ティアモ", "Cordelia", "蒂亞莫"], lance, cavalry, [15, 6, 8, 4, 3], [7, 7, 9, 6, 2], [6, 8, 10, 14]);
     createHero("Guire_M_Normal", [2017, 2, 2], ["お菓子好き盗賊", "Candy Stealer", "喜愛甜點的盜賊"], ["ガイア", "Gaius", "蓋亞"], dagger, infantry, [16, 5, 8, 3, 2], [7, 6, 8, 4, 3], [3, 5, 4, 7], 3);
     createHero("Guire_M_Swim17", [2017, 6, 30], ["お菓子を隠せない", "Thief Exposed", "甜點無處可藏"], ["ガイア", "Gaius", "蓋亞"], bow, infantry, [15, 6, 7, 2, 4], [4, 6, 9, 3, 6], [4, 6, 8, 12]);
     createHero("Denis_M_Normal", [2017, 2, 2], ["村人", "Village Hero", "村民"], ["ドニ", "Donnel", "多尼"], lance, infantry, [15, 5, 3, 4, 2], [8, 9, 7, 8, 5], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0]], 1);
@@ -248,6 +251,7 @@
     createHero("Jerome_M_Normal", [2018, 3, 15], ["鉄仮面の竜騎士", "Masked Rider", "鐵面的龍騎士"], ["ジェローム", "Gerome", "傑洛姆"], axe, flying, [17, 8, 4, 6, 2], [8, 9, 5, 8, 3], [6, 8, 10, 14], 4, Infinity);
     createHero("Marc_M_Normal", [2018, 3, 9], ["異界より来た少年", "Lad from Afar", "來自異界的少年"], ["マーク", "Morgan", "馬可"], redTome, infantry, [16, 5, 6, 3, 5], [5, 8, 8, 3, 5], [4, 6, 9, [0, 14, 0, 3, 0]], 4);
     createHero("Marc_F_Normal", [2018, 3, 9], ["異界より来た少女", "Lass from Afar", "來自異界的少女"], ["マーク", "Morgan", "馬可"], blueTome, flying, [16, 6, 4, 1, 7], [5, 8, 7, 2, 7], [4, 6, 8, 12]);
+    createHero("Noir_F_Swim18", [2018, 6, 21], ["日差しは苦手な", "Shade Seeker", "害怕曬太陽"], ["ノワール", "Noire", "諾瓦爾"], bow, infantry, [15, 6, 8, 3, 3], [5, 7, 8, 6, 3], [4, 6, 8, 12]);
     // ch05 if
     createHero("Kamui_M_Normal", [2017, 2, 2], ["未来を選びし王子", "Fateful Prince", "選擇未來的王子"], ["カムイ", "Corrin", "神威"], sword, infantry, [18, 6, 6, 4, 3], [6, 7, 7, 6, 5], [6, 8, 11, 16], 3);
     createHero("Kamui_M_NewYear18", [2018, 1, 16], ["白夜で年越し", "Enjoying Tradition", "在白夜跨年"], ["カムイ", "Corrin", "神威"], bow, infantry, [16, 6, 6, 4, 3], [5, 7, 6, 9, 2], [4, 6, 8, 12], 4, Infinity);
