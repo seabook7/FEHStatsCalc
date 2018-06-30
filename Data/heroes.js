@@ -148,6 +148,7 @@
     createHero("Lin_F_Legend01", [2018, 5, 1], ["風の公女", "Lady of the Wind", "風之女爵"], ["リン", "Lyn", "琳"], greenBow, infantry, [15, 7, 8, 2, 3], [5, 6, 8, 4, 6], [4, 6, 9, [0, 14, 0, 0, 3]]);
     createHero("Hector_M_Normal", [2017, 2, 2], ["オスティアの勇将", "General of Ostia", "奧斯提亞的勇將"], ["ヘクトル", "Hector", "海克托爾"], axe, armored, [22, 8, 3, 9, 2], [9, 8, 5, 8, 3], [6, 8, 11, 16]);
     createHero("Hector_M_Valentine18", [2018, 2, 9], ["愛の祭の闘技者", "Just Here to Fight", "愛之祭典的鬥技者"], ["ヘクトル", "Hector", "海克托爾"], axe, armored, [22, 6, 2, 10, 5], [8, 10, 4, 9, 4], [6, 8, 11, 16]);
+    createHero("Hector_M_Legend01", [2018, 6, 28], ["オスティア侯", "Marquess of Ostia", "奧斯提亞侯爵"], ["ヘクトル", "Hector", "海克托爾"], axe, armored, [21, 8, 4, 10, 2], [7, 10, 4, 8, 6], [6, 8, 11, [0, 16, 0, 3, 0]]);
     createHero("Matthew_M_Normal", [2017, 2, 2], ["義の盗賊", "Faithful Spy", "義賊"], ["マシュー", "Matthew", "馬修"], dagger, infantry, [15, 4, 8, 4, 3], [7, 5, 7, 7, 2], [3, 5, 4, 7], 2);
     createHero("Serra_F_Normal", [2017, 2, 2], ["かしましシスター", "Outspoken Cleric", "吵鬧的修女"], ["セーラ", "Serra", "塞拉"], staff, infantry, [14, 4, 7, 2, 7], [4, 7, 6, 4, 7], [10, 4, 7], 3);
     createHero("Leyvan_M_Normal", [2017, 2, 2], ["気高き傭兵", "Peerless Fighter", "高傲的傭兵"], ["レイヴァン", "Raven", "瑞文"], axe, infantry, [17, 6, 7, 4, 3], [6, 8, 8, 5, 4], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0], 16], 3);
