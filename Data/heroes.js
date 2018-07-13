@@ -58,6 +58,7 @@
     createHero("Oguma_M_Normal", [2017, 2, 2], ["タリスの傭兵", "Loyal Blade", "塔利斯的傭兵"], ["オグマ", "Ogma", "奧古馬"], sword, infantry, [19, 5, 8, 4, 1], [8, 9, 7, 6, 1], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0]], 3);
     createHero("Barts_M_Normal", [2017, 2, 2], ["タリスの義勇兵", "The Hatchet", "塔利斯的義勇兵"], ["バーツ", "Barst", "巴茲"], axe, infantry, [18, 7, 6, 4, 2], [8, 7, 7, 7, 2], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0]], 3);
     createHero("Rinda_F_Normal", [2017, 2, 2], ["光の魔導士", "Light Mage", "光之魔道士"], ["リンダ", "Linde", "琳達"], blueTome, infantry, [14, 7, 8, 2, 3], [5, 8, 8, 1, 6], [4, 6, 9, 14]);
+    createHero("Rinda_F_Swim18", [2018, 7, 10], ["夏の光条", "Summer Rays", "夏日射線"], ["リンダ", "Linde", "琳達"], dagger, cavalry, [14, 6, 7, 1, 5], [4, 8, 8, 2, 5], [3, 5, 10, 12]);
     createHero("Jorjue_M_Normal", [2017, 2, 2], ["大陸一の弓騎士", "Perfect Shot", "陸地第一的弓騎士"], ["ジョルジュ", "Jeorge", "喬爾裘"], bow, infantry, [16, 6, 6, 3, 3], [5, 7, 7, 5, 4], [4, 6, 9, 14], 3);
     createHero("Misheil_M_Normal", [2017, 3, 24], ["野望の王", "Ambitious King", "野心之王"], ["ミシェイル", "Michalis", "米謝爾"], axe, flying, [17, 6, 5, 7, 2], [7, 8, 5, 8, 3], [6, 8, 11, 16], 3, Infinity);
     createHero("Minerba_F_Normal", [2017, 2, 2], ["赤い竜騎士", "Red Dragoon", "赤色龍騎士"], ["ミネルバ", "Minerva", "米奈娃"], axe, flying, [16, 5, 7, 6, 3], [6, 7, 7, 7, 4], [6, 8, 11, 16]);
@@ -71,7 +72,8 @@
     createHero("Camus_M_Normal", [2017, 6, 2], ["黒騎士", "Sable Knight", "黑騎士"], ["カミュ", "Camus", "卡謬"], lance, cavalry, [16, 6, 7, 5, 2], [7, 7, 7, 7, 2], [6, 8, 11, 16], 3, Infinity);
     createHero("Sheema_F_Normal", [2017, 2, 2], ["グラの王女", "Princess of Gra", "格拉的公主"], ["シーマ", "Sheena", "希瑪"], axe, armored, [19, 6, 4, 10, 5], [7, 6, 5, 7, 8], [6, 8, 7, 11], 3);
     createHero("Tiki_F_Normal", [2017, 2, 2], ["神竜族の王女", "Dragon Scion", "神龍族的公主"], ["チキ", "Tiki", "琪姬"], redBreath, infantry, [13, 3, 2, 6, 5], [8, 8, 8, 7, 6], [6, 8, 11, 15, 16]);
-    createHero("Katarina_F_Normal", [2017, 6, 14], ["迷える軍師", "Wayward One", "迷途軍師"], ["カタリナ", "Katarina", "卡達麗娜"], redTome, infantry, [15, 4, 6, 3, 6], [4, 8, 8, 1, 7], [4, 6, 6, 10]);
+    createHero("Tiki_F_Swim18", [2018, 7, 10], ["浜辺の竜姫", "Beachside Scion", "海邊的龍公主"], ["チキ", "Tiki", "琪姬"], redBreath, flying, [14, 5, 2, 6, 2], [7, 8, 11, 7, 6], [6, 8, 11, [0, 16, 0, 3, 0]]);
+    createHero("Katarina_F_Normal", [2017, 6, 14], ["迷える軍師", "Wayward One", "迷途軍師"], ["カタリナ", "Katarina", "卡達麗娜"], redTome, infantry, [15, 4, 6, 3, 6], [4, 8, 8, 1, 7], [4, 6, 6, 10, 14]);
     createHero("Kleine_F_Normal", [2017, 6, 28], ["暗闇の狙撃手", "Sniper in the Dark", "黑暗狙擊手"], ["クライネ", "Clarisse", "克萊涅"], bow, infantry, [16, 5, 6, 4, 3], [5, 7, 8, 5, 3], [4, 6, 7, 11], 3, Infinity);
     createHero("Roro_M_Normal", [2017, 6, 16], ["笑う仮面", "Masked Maniac", "笑臉面具"], ["ローロー", "Legion", "羅羅"], axe, infantry, [18, 8, 7, 3, 1], [8, 8, 8, 4, 3], [6, 8, 10, 14], 3, Infinity);
     createHero("Nabarl_M_Normal", [2017, 4, 4], ["紅の剣士", "Scarlet Sword", "赤色劍士"], ["ナバール", "Navarre", "拿巴爾"], sword, infantry, [16, 5, 9, 4, 3], [7, 7, 8, 4, 5], [6, 8, 7, 11], 3, Infinity);
@@ -157,7 +159,7 @@
     createHero("Priscilla_F_Normal", [2017, 3, 14], ["深窓の姫君", "Delicate Princess", "深閨的公主"], ["プリシラ", "Priscilla", "普莉西亞"], staff, cavalry, [15, 5, 5, 2, 6], [5, 6, 6, 3, 7], [10, 7, 11], 3);
     createHero("Dorcas_M_Normal", [2017, 11, 15], ["冷静なる戦士", "Serene Warrior", "冷靜的戰士"], ["ドルカス", "Dorcas", "多爾卡斯"], axe, infantry, [17, 7, 4, 7, 3], [8, 8, 4, 8, 5], [6, 8, 11, 16]);
     createHero("Flolina_F_Normal", [2017, 2, 2], ["可憐な天馬騎士", "Lovely Flier", "可愛的天馬騎士"], ["フロリーナ", "Florina", "芙羅利娜"], lance, flying, [16, 5, 6, 4, 6], [7, 6, 5, 5, 8], [6, 8, 8, 12], 3);
-    createHero("Canas_M_Normal", [2018, 6, 16], ["知識の探究者", "Wisdom Seeker", "知識的探究者"], ["カナス", "Canas", "卡納斯"], redTome, infantry, [15, 8, 3, 2, 7], [5, 6, 7, 4, 7], [4, 6, 6, 10], 4, Infinity); // data?
+    createHero("Canas_M_Normal", [2018, 6, 16], ["知識の探究者", "Wisdom Seeker", "知識的探究者"], ["カナス", "Canas", "卡納斯"], redTome, infantry, [15, 8, 3, 2, 7], [5, 6, 7, 4, 7], [4, 6, 6, 10], 4, Infinity);
     createHero("Karel_M_Normal", [2017, 3, 14], ["剣魔", "Sword Demon", "劍魔"], ["カレル", "Karel", "卡列爾"], sword, infantry, [17, 6, 7, 4, 3], [9, 6, 8, 5, 3], [6, 8, 9, 13, 16]);
     createHero("Karla_F_Normal", [2018, 6, 8], ["剣姫", "Sword Vassal", "劍姬"], ["カアラ", "Karla", "卡菈"], sword, infantry, [16, 5, 8, 4, 5], [7, 9, 10, 4, 3], [6, 8, 9, 16]);
     createHero("Hawkeye_M_Normal", [2017, 2, 2], ["砂漠の守護者", "Desert Guardian", "沙漠的守護者"], ["ホークアイ", "Hawkeye", "霍克艾"], axe, infantry, [19, 7, 3, 4, 4], [7, 7, 4, 6, 7], [6, 8, 7, 11], 3);
@@ -169,7 +171,7 @@
     createHero("Ursula_F_Normal", [2017, 3, 10], ["蒼鴉", "Blue Crow", "蒼鴉"], ["ウルスラ", "Ursula", "烏爾斯拉"], blueTome, cavalry, [14, 5, 6, 2, 6], [5, 6, 7, 3, 6], [4, 6, 6, 10], 3, Infinity);
     createHero("Nino_F_Normal", [2017, 2, 2], ["魔道の申し子", "Pious Mage", "魔道驕子"], ["ニノ", "Nino", "妮諾"], greenTome, infantry, [14, 5, 8, 2, 5], [4, 8, 8, 3, 5], [4, 6, 9, 13], 3);
     createHero("Nino_F_Normal2", [2018, 6, 8], ["闇の白い花", "Pale Flower", "幽暗的白花"], ["ニノ", "Nino", "妮諾"], greenTome, flying, [15, 5, 8, 2, 4], [5, 8, 9, 2, 5], [4, 6, 9, [0, 14, 3, 0, 0]]);
-    createHero("Lagarto_M_Normal", [2018, 6, 8], ["疾風", "The Hurricane", "疾風"], ["ラガルト", "Legault", "拉加爾托"], dagger, infantry, [15, 5, 8, 5, 2], [6, 7, 9, 4, 3], [3, 5, 8, 12]);
+    createHero("Lagarto_M_Normal", [2018, 6, 8], ["疾風", "The Hurricane", "疾風"], ["ラガルト", "Legault", "拉加爾托"], dagger, infantry, [15, 5, 8, 5, 2], [6, 7, 9, 4, 3], [3, 5, 8, 12], 4);
     // ch08 聖魔の光石
     createHero("Eirik_F_Normal", [2017, 2, 15], ["碧風の優王女", "Restoration Lady", "碧風的善良公主"], ["エイリーク", "Eirika", "艾莉可"], sword, infantry, [16, 5, 7, 5, 4], [7, 5, 8, 5, 6], [6, 8, 11, 16], 3);
     createHero("Eirik_F_Normal2", [2018, 1, 25], ["追憶の優王女", "Anamnesis Lady", "回憶的善良公主"], ["エイリーク", "Eirika", "艾莉可"], redTome, cavalry, [15, 5, 7, 3, 3], [5, 7, 8, 3, 4], [4, 6, 9, [0, 14, 0, 0, 3]]);
@@ -186,18 +188,18 @@
     createHero("Amelia_F_Normal", [2017, 8, 15], ["戦場の花", "Rose of the War", "戰場之花"], ["アメリア", "Amelia", "亞美利雅"], axe, armored, [17, 4, 6, 7, 2], [9, 9, 8, 8, 5], [6, 8, 10, 14]);
     createHero("Jhosua_M_Normal", [2017, 11, 21], ["風来王", "Tempest King", "飄忽不定"], ["ヨシュア", "Joshua", "約書亞"], sword, infantry, [16, 5, 7, 6, 4], [6, 7, 8, 6, 6], [6, 8, 10, 16], 4, Infinity);
     createHero("Marica_F_Normal", [2018, 1, 31], ["緋閃", "Crimson Flash", "緋閃"], ["マリカ", "Marisa", "瑪莉卡"], sword, infantry, [16, 6, 8, 4, 4], [9, 6, 8, 7, 3], [6, 8, 9, 13], 4, Infinity);
-    createHero("Larchel_F_Normal", [2018, 1, 25], ["光の聖王女", "Princess of Light", "光之聖公主"], ["ラーチェル", "L'Arachel", "拉切爾"], blueTome, cavalry, [14, 7, 5, 2, 5], [4, 7, 7, 2, 7], [4, 6, 9, [0, 14, 0, 3, 0]], 4);
+    createHero("Larchel_F_Normal", [2018, 1, 25], ["光の聖王女", "Princess of Light", "光之聖公主"], ["ラーチェル", "L'Arachel", "拉切爾"], blueTome, cavalry, [14, 7, 5, 2, 5], [4, 7, 7, 2, 7], [4, 6, 9, [0, 14, 0, 3, 0]], 3, 4);
     createHero("Myrrh_F_Normal", [2018, 1, 25], ["無垢なる竜人", "Great Dragon", "純真的龍人"], ["ミルラ", "Myrrh", "梅爾"], greenBreath, flying, [14, 5, 4, 1, 5], [8, 8, 5, 11, 7], [6, 8, 11, 16 + 3]);
     // ch09 蒼炎の軌跡
     createHero("Ike_M_Normal", [2017, 4, 26], ["傭兵団の青年", "Young Mercenary", "傭兵團的青年"], ["アイク", "Ike", "艾克"], sword, infantry, [16, 7, 5, 6, 3], [7, 8, 7, 7, 2], [6, 8, 11, 16]);
     createHero("Ike_M_ELECTION01", [2017, 8, 31], ["大いなる傭兵", "Brave Mercenary", "偉大的傭兵"], ["アイク", "Ike", "艾克"], axe, infantry, [15, 8, 4, 7, 3], [8, 8, 6, 8, 3], [6, 8, 11, 16]);
-    createHero("Tiamat_F_Normal", [2017, 4, 26], ["傭兵団の副長", "Mighty Mercenary", "傭兵團的副團長"], ["ティアマト", "Titania", "狄亞馬特"], axe, cavalry, [16, 4, 6, 4, 6], [5, 6, 8, 5, 6], [6, 8, 8, 12], 3);
+    createHero("Tiamat_F_Normal", [2017, 4, 26], ["傭兵団の副長", "Mighty Mercenary", "傭兵團的副團長"], ["ティアマト", "Titania", "狄亞馬特"], axe, cavalry, [16, 4, 6, 4, 6], [5, 6, 8, 5, 6], [6, 8, 8, 12, 16], 3);
     createHero("Senerio_M_Normal", [2017, 4, 26], ["冷徹なる参謀", "Shrewd Strategist", "冷酷的參謀"], ["セネリオ", "Soren", "塞涅里歐"], greenTome, infantry, [15, 5, 7, 2, 5], [5, 8, 7, 2, 6], [4, 6, 9, 13, 14], 3);
     createHero("Mist_F_Normal", [2017, 4, 26], ["世話好きな妹", "Helpful Sister", "喜歡照顧人的妹妹"], ["ミスト", "Mist", "密絲特"], staff, infantry, [15, 6, 4, 3, 6], [6, 5, 6, 3, 8], [10, 5, 12]);
     createHero("Oscar_M_Normal", [2017, 9, 15], ["柔の騎士", "Agile Horseman", "靈活的騎士"], ["オスカー", "Oscar", "奧斯卡"], lance, cavalry, [16, 5, 6, 5, 4], [6, 8, 8, 5, 3], [6, 8, 8, 12], 3);
     createHero("Wayu_F_Normal", [2017, 11, 15], ["頂へ昇る剣士", "Lady of Blades", "登上巔峰的劍客"], ["ワユ", "Mia", "瓦育"], sword, infantry, [14, 6, 10, 4, 4], [6, 7, 9, 6, 5], [6, 8, 9, 16 + 3]);
     createHero("Erincia_F_Normal", [2017, 9, 15], ["亡国の王女", "Lost Princess", "亡國的公主"], ["エリンシア", "Elincia", "艾琳西亞"], sword, flying, [14, 6, 8, 3, 6], [5, 8, 8, 5, 5], [6, 8, 11, [0, 11, -2, 0, 0]]);
-    createHero("Nepenee_F_Normal", [2017, 9, 15], ["寡黙な村娘", "Fierce Halberdier", "沉默的村姑"], ["ネフェニー", "Nephenee", "涅菲妮"], lance, infantry, [16, 5, 7, 6, 3], [5, 7, 8, 8, 3], [6, 8, 10, 14]);
+    createHero("Nepenee_F_Normal", [2017, 9, 15], ["寡黙な村娘", "Fierce Halberdier", "沉默的村姑"], ["ネフェニー", "Nephenee", "涅菲妮"], lance, infantry, [16, 5, 7, 6, 3], [5, 7, 8, 8, 3], [6, 8, 10, 14, 16]);
     createHero("Sanaki_F_Wedding18", [2018, 5, 21], ["花嫁姿の神使", "Apostle in White", "新娘打扮的神使"], ["サナキ", "Sanaki", "莎娜琪"], greenTome, flying, [14, 8, 6, 1, 5], [5, 8, 6, 2, 8], [4, 6, 9, 14 + 3]);
     createHero("BlackNight_M_Normal", [2017, 9, 23], ["四駿の将", "Sinister General", "四駿之將"], ["漆黒の騎士", "Black Knight", "漆黑騎士"], sword, armored, [20, 8, 6, 7, 3], [8, 7, 8, 8, 2], [6, 8, 11, 16], 4, Infinity);
     // ch11 暁の女神
@@ -277,6 +279,7 @@
     createHero("Takumi_M_Normal", [2017, 2, 2], ["神弓の使い手", "Wild Card", "神弓射手"], ["タクミ", "Takumi", "拓海"], bow, infantry, [16, 6, 5, 4, 3], [6, 7, 8, 5, 2], [4, 6, 9, 14], 4, 5);
     createHero("Takumi_M_NewYear18", [2017, 12, 31], ["お雑煮大好き", "Prince of Soup", "最喜歡麻糬湯"], ["タクミ", "Takumi", "拓海"], dagger, infantry, [16, 6, 8, 2, 3], [6, 8, 7, 2, 6], [3, 5, 8, 12]);
     createHero("Takumi_M_Dark", [2018, 2, 24], ["水の眷属", "Empty Vessel", "水之眷屬"], ["タクミ", "Takumi", "拓海"], bow, infantry, [13, 7, 8, 4, 3], [6, 6, 7, 5, 5], [4, 6, 9, [0, 14, 3, 0, 0]], 3, Infinity);
+    createHero("Takumi_M_Swim18", [2018, 7, 10], ["南国満喫王子", "Prince at Play", "享受南國風情的王子"], ["タクミ", "Takumi", "拓海"], bow, flying, [16, 7, 5, 4, 2], [6, 8, 9, 3, 3], [4, 6, 10, 12]);
     createHero("Hinata_M_Normal", [2017, 2, 2], ["破天荒な侍", "Wild Samurai", "豪邁武士"], ["ヒナタ", "Hinata", "日向"], sword, infantry, [19, 6, 3, 8, 1], [8, 7, 5, 8, 3], [6, 8, 8, 12], 3);
     createHero("Oboro_F_Normal", [2017, 2, 2], ["魔王顔の", "Fierce Fighter", "神情狂暴的"], ["オボロ", "Oboro", "朧"], lance, infantry, [16, 6, 5, 7, 3], [6, 7, 5, 8, 5], [6, 8, 8, 12], 3);
     createHero("Sakura_F_Normal", [2017, 2, 2], ["慈しみの巫女", "Loving Priestess", "慈悲的巫女"], ["サクラ", "Sakura", "櫻"], staff, infantry, [15, 4, 6, 3, 6], [5, 6, 6, 5, 6], [10, 5, 12], 3);
@@ -292,6 +295,7 @@
     createHero("Camilla_F_Normal", [2017, 2, 2], ["妖艶な花", "Bewitching Beauty", "妖艷之花"], ["カミラ", "Camilla", "卡美拉"], axe, flying, [16, 6, 6, 4, 5], [5, 6, 7, 6, 7], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0], 16], 3);
     createHero("Camilla_F_SpringFes17", [2017, 3, 30], ["春色の暗夜王女", "Spring Princess", "春色的暗夜公主"], ["カミラ", "Camilla", "卡美拉"], greenTome, flying, [15, 7, 4, 6, 2], [6, 8, 5, 6, 3], [4, 6, 7, 11]);
     createHero("Camilla_F_NewYear18", [2017, 12, 31], ["異文化交流中", "Holiday Traveler", "國際交流中"], ["カミラ", "Camilla", "卡美拉"], sword, flying, [16, 7, 7, 5, 2], [6, 7, 8, 7, 5], [6, 8, 10, 14]);
+    createHero("Camilla_F_Swim18", [2018, 7, 10], ["", "Tropical Beauty", ""], ["カミラ", "Camilla", "卡美拉"], blueTome, flying, [15, 5, 8, 4, 2], [6, 8, 8, 4, 3], [4, 6, 10, 12]);
     createHero("Luna_F_Normal", [2017, 2, 2], ["秘めた憧憬", "Cutting Wit", "深藏的憧憬"], ["ルーナ", "Selena", "露娜"], sword, infantry, [16, 4, 7, 6, 4], [5, 5, 8, 7, 6], [6, 8, 8, 12], 3);
     createHero("Berka_F_Normal", [2017, 2, 2], ["殺し屋", "Quiet Assassin", "殺手"], ["ベルカ", "Beruka", "貝爾卡"], axe, flying, [18, 5, 4, 7, 3], [8, 6, 4, 9, 4], [6, 8, 7, 11], 3);
     createHero("Leon_M_Normal", [2017, 2, 2], ["闇の王子", "Sorcerous Prince", "暗之王子"], ["レオン", "Leo", "里昂"], redTome, cavalry, [15, 5, 3, 4, 6], [6, 6, 4, 5, 6], [4, 6, 9, 14]);
