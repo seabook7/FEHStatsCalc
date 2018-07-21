@@ -226,15 +226,19 @@
     createHero("Frederik_M_Swim17", [2017, 6, 30], ["海岸線の守護者", "Horizon Watcher", "海岸線的守護者"], ["フレデリク", "Frederick", "弗雷德里克"], dagger, infantry, [16, 6, 5, 4, 3], [6, 7, 7, 6, 2], [3, 5, 7, 10]);
     createHero("Soiree_F_Normal", [2017, 2, 2], ["紅の騎士", "Crimson Knight", "赤紅騎士"], ["ソワレ", "Sully", "索瓦蕾"], lance, cavalry, [16, 5, 6, 5, 4], [7, 5, 8, 4, 6], [6, 8, 8, 12], 3);
     createHero("Sort_M_Normal", [2017, 2, 2], ["碧の騎士", "Viridian Knight", "碧綠騎士"], ["ソール", "Stahl", "索爾"], sword, cavalry, [17, 5, 5, 6, 3], [8, 7, 5, 6, 4], [6, 8, 8, 12], 1);
+    createHero("Smia_F_Normal", [2018, 7, 20], ["花占いの乙女", "Maid of Flowers", "以花占卜的少女"], ["スミア", "Sumia", "絲米亞"], lance, flying, [15, 4, 9, 5, 4], [6, 7, 9, 6, 5], [6, 8, 10, 14]);
+    createHero("Mariabell_F_Normal", [2018, 7, 20], ["罵詈雑言の令嬢", "Dire Damsel", "揚聲惡罵的大小姐"], ["マリアベル", "Maribelle", "瑪利亞貝爾"], staff, cavalry, [15, 7, 7, 1, 3], [4, 8, 7, 2, 6], [10, 8, 12]);
     createHero("Tiamo_F_Normal", [2017, 2, 2], ["若き天才騎士", "Knight Paragon", "年輕的天才騎士"], ["ティアモ", "Cordelia", "蒂亞莫"], lance, flying, [16, 7, 7, 3, 4], [6, 8, 8, 4, 5], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0]], 3);
     createHero("Tiamo_F_Wedding17", [2017, 5, 30], ["完全無欠の花嫁", "Perfect Bride", "完美的新娘"], ["ティアモ", "Cordelia", "蒂亞莫"], bow, infantry, [15, 7, 7, 2, 3], [5, 8, 8, 3, 4], [4, 6, 8, 12]);
     createHero("Tiamo_F_Swim18", [2018, 6, 21], ["水着姿の天才騎士", "Knight Paradise", "身著泳裝的天才騎士"], ["ティアモ", "Cordelia", "蒂亞莫"], lance, cavalry, [15, 6, 8, 4, 3], [7, 7, 9, 6, 2], [6, 8, 10, 14]);
+    createHero("Riviera_F_Normal", [2018, 7, 20], ["美貌の僧侶", "Fetching Friar", "美貌的僧侶"], ["リベラ", "Libra", "利貝拉"], axe, infantry, [16, 7, 6, 4, 5], [6, 8, 7, 6, 6], [6, 8, 9, 13]);
     createHero("Guire_M_Normal", [2017, 2, 2], ["お菓子好き盗賊", "Candy Stealer", "喜愛甜點的盜賊"], ["ガイア", "Gaius", "蓋亞"], dagger, infantry, [16, 5, 8, 3, 2], [7, 6, 8, 4, 3], [3, 5, 4, 7], 3);
     createHero("Guire_M_Swim17", [2017, 6, 30], ["お菓子を隠せない", "Thief Exposed", "甜點無處可藏"], ["ガイア", "Gaius", "蓋亞"], bow, infantry, [15, 6, 7, 2, 4], [4, 6, 9, 3, 6], [4, 6, 8, 12]);
     createHero("Denis_M_Normal", [2017, 2, 2], ["村人", "Village Hero", "村民"], ["ドニ", "Donnel", "多尼"], lance, infantry, [15, 5, 3, 4, 2], [8, 9, 7, 8, 5], [6, 8, [0, 5, -5, 0, 0], [0, 8, -5, 0, 0]], 1);
     createHero("Ronkuu_M_Normal", [2017, 2, 2], ["女嫌いの剣士", "Solitary Blade", "討厭女人的劍客"], ["ロンクー", "Lon'qu", "隆克"], sword, infantry, [17, 5, 9, 3, 3], [8, 6, 9, 4, 4], [6, 8, 7, 11], 3);
     createHero("Olivie_F_Normal", [2017, 2, 2], ["恥ずかしがり屋の", "Blushing Beauty", "害羞的"], ["オリヴィエ", "Olivia", "奧利薇"], sword, infantry, [15, 4, 5, 3, 2], [5, 6, 8, 6, 6], [6, 8, 11, 15], 1);
     createHero("Olivie_F_dance17", [2017, 9, 29], ["祭の舞姫", "Festival Dancer", "慶典的無姬"], ["オリヴィエ", "Olivia", "奧利薇"], dagger, infantry, [13, 4, 6, 1, 2], [5, 6, 8, 2, 7], [3, 5, 7, 10]);
+    createHero("Olivie_F_Normal2", [2018, 7, 20], ["空舞う踊り子", "Sky-High Dancer", "漫舞空中的舞孃"], ["オリヴィエ", "Olivia", "奧利薇"], dagger, flying, [15, 4, 6, 2, 2], [5, 7, 8, 6, 5], [6, 8, 11, 16]);
     createHero("Henri_M_Normal", [2017, 2, 2], ["壊れた心の", "Twisted Mind", "心靈崩壞的"], ["ヘンリー", "Henry", "亨利"], redTome, infantry, [17, 4, 3, 6, 4], [8, 4, 4, 7, 5], [4, 6, 7, 11], 3);
     createHero("Henri_M_halloween17", [2017, 10, 30], ["明るい吸血鬼", "Happy Vampire", "開朗的吸血鬼"], ["ヘンリー", "Henry", "亨利"], greenTome, armored, [15, 7, 8, 2, 10], [5, 7, 7, 6, 7], [4, 6, 8, 12]);
     createHero("Sallya_F_Normal", [2017, 2, 2], ["物陰の闇使い", "Dark Shadow", "陰沉的暗影法師"], ["サーリャ", "Tharja", "撒拉"], redTome, infantry, [15, 6, 6, 4, 3], [6, 7, 8, 4, 3], [4, 6, 9, 13], 3);
@@ -255,6 +259,7 @@
     createHero("Marc_M_Normal", [2018, 3, 9], ["異界より来た少年", "Lad from Afar", "來自異界的少年"], ["マーク", "Morgan", "馬可"], redTome, infantry, [16, 5, 6, 3, 5], [5, 8, 8, 3, 5], [4, 6, 9, [0, 14, 0, 3, 0]], 4);
     createHero("Marc_F_Normal", [2018, 3, 9], ["異界より来た少女", "Lass from Afar", "來自異界的少女"], ["マーク", "Morgan", "馬可"], blueTome, flying, [16, 6, 4, 1, 7], [5, 8, 7, 2, 7], [4, 6, 8, 12]);
     createHero("Noir_F_Swim18", [2018, 6, 21], ["日差しは苦手な", "Shade Seeker", "害怕曬太陽"], ["ノワール", "Noire", "諾瓦爾"], bow, infantry, [15, 6, 8, 3, 3], [5, 7, 8, 6, 3], [4, 6, 8, 12]);
+    createHero("Valhalt_M_Normal", [2018, 7, 31], ["覇王", "The Conqueror", "ヴァルハルト"], ["霸王", "Walhart", "瓦爾哈爾特"], axe, cavalry, [17, 9, 3, 6, 1], [6, 8, 6, 9, 2], [6, 8, 11, [0, 16, 0, 3, 0]], 3, Infinity);
     // ch05 if
     createHero("Kamui_M_Normal", [2017, 2, 2], ["未来を選びし王子", "Fateful Prince", "選擇未來的王子"], ["カムイ", "Corrin", "神威"], sword, infantry, [18, 6, 6, 4, 3], [6, 7, 7, 6, 5], [6, 8, 11, 16], 3);
     createHero("Kamui_M_NewYear18", [2018, 1, 16], ["白夜で年越し", "Enjoying Tradition", "在白夜跨年"], ["カムイ", "Corrin", "神威"], bow, infantry, [16, 6, 6, 4, 3], [5, 7, 6, 9, 2], [4, 6, 8, 12], 4, Infinity);
