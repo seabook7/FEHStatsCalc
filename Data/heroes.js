@@ -11,7 +11,7 @@
     var lance = feh.weaponType.lance;
     var axe = feh.weaponType.axe;
     // var redBow = feh.weaponType.redBow;
-    // var blueBow = feh.weaponType.blueBow;
+    var blueBow = feh.weaponType.blueBow;
     var greenBow = feh.weaponType.greenBow;
     var bow = feh.weaponType.bow;
     var dagger = feh.weaponType.dagger;
@@ -43,6 +43,7 @@
     // createHero("Laegjarn_F_Normal", [2018, 2, 22], ["炎剣の鞘", "Sheathed Steel", "炎劍之鞘"], ["レーギャルン", "Laegjarn", "瑞瓦伽倫"], sword, flying);
     // createHero("Helbindi_M_Normal", [2018, 5, 10], ["地獄の底の", "Savage Scourge", "來自地獄深淵"], ["ヘルビンディ", "Helbindi", "赫爾賓迪"], axe, infantry);
     // createHero("Yurg_F_Normal", [2018, 5, 10], ["", "", ""], ["ユルグ", "Yurg?", "優爾格"]);
+    // createHero("Freeze_M_Normal", [2018, 7, 20], ["", "", ""], ["フリーズ", "Freeze?", "佛利茲"]);
     // ch01 暗黒竜と光の剣　紋章の謎　新・紋章の謎
     createHero("Marth_M_Normal", [2017, 2, 2], ["アリティアの王子", "Altean Prince", "阿利提亞的王子"], ["マルス", "Marth", "馬爾斯"], sword, infantry, [17, 5, 6, 5, 4], [6, 7, 8, 6, 4], [6, 8, 11, 16], 3);
     createHero("Marth_M_Wedding18", [2018, 5, 25], ["アリティアの花婿", "Altean Groom", "阿利提亞的新郎"], ["マルス", "Marth", "馬爾斯"], axe, cavalry, [16, 5, 8, 4, 3], [6, 7, 8, 7, 3], [6, 8, 10, 14], 4, Infinity);
@@ -254,12 +255,13 @@
     createHero("Lucina_F_SpringFes17", [2017, 3, 30], ["春色の聖王女", "Spring Exalt", "春色的聖公主"], ["ルキナ", "Lucina", "露琪娜"], blueTome, infantry, [14, 5, 8, 3, 4], [5, 6, 8, 4, 5], [4, 6, 7, 11]);
     createHero("Marth_F_Mask", [2017, 6, 8], ["謎の剣士", "Enigmatic Blade", "神秘劍客"], ["マルス", "Marth", "馬爾斯"], sword, infantry, [17, 6, 8, 4, 2], [7, 8, 8, 5, 3], [6, 8, 11, 16], 4, Infinity);
     createHero("Lucina_F_ELECTION01", [2017, 8, 31], ["大いなる王女", "Brave Princess", "偉大的公主"], ["ルキナ", "Lucina", "露琪娜"], lance, infantry, [15, 6, 8, 6, 2], [7, 8, 8, 5, 3], [6, 8, 11, [0, 16, 0, 3, 0]]);
+    createHero("Lucina_F_Legend01", [2018, 7, 31], ["神威の射手", "Glorious Archer", "神威射手"], ["ルキナ", "Lucina", "露琪娜"], blueBow, infantry, [15, 6, 7, 4, 3], [5, 8, 8, 5, 3], [4, 6, 9, [0, 14, 3, 0, 0]]);
     createHero("Azur_M_dance17", [2017, 9, 29], ["蒼穹のダンサー", "Indigo Dancer", "蒼穹的舞者"], ["アズール", "Inigo", "阿茲爾"], greenTome, infantry, [13, 4, 5, 3, 1], [6, 6, 8, 4, 4], [4, 6, 8, 12]);
     createHero("Jerome_M_Normal", [2018, 3, 15], ["鉄仮面の竜騎士", "Masked Rider", "鐵面的龍騎士"], ["ジェローム", "Gerome", "傑洛姆"], axe, flying, [17, 8, 4, 6, 2], [8, 9, 5, 8, 3], [6, 8, 10, 14], 4, Infinity);
     createHero("Marc_M_Normal", [2018, 3, 9], ["異界より来た少年", "Lad from Afar", "來自異界的少年"], ["マーク", "Morgan", "馬可"], redTome, infantry, [16, 5, 6, 3, 5], [5, 8, 8, 3, 5], [4, 6, 9, [0, 14, 0, 3, 0]], 4);
     createHero("Marc_F_Normal", [2018, 3, 9], ["異界より来た少女", "Lass from Afar", "來自異界的少女"], ["マーク", "Morgan", "馬可"], blueTome, flying, [16, 6, 4, 1, 7], [5, 8, 7, 2, 7], [4, 6, 8, 12]);
     createHero("Noir_F_Swim18", [2018, 6, 21], ["日差しは苦手な", "Shade Seeker", "害怕曬太陽"], ["ノワール", "Noire", "諾瓦爾"], bow, infantry, [15, 6, 8, 3, 3], [5, 7, 8, 6, 3], [4, 6, 8, 12]);
-    createHero("Valhalt_M_Normal", [2018, 7, 31], ["覇王", "The Conqueror", "ヴァルハルト"], ["霸王", "Walhart", "瓦爾哈爾特"], axe, cavalry, [17, 9, 3, 6, 1], [6, 8, 6, 9, 2], [6, 8, 11, [0, 16, 0, 3, 0]], 3, Infinity);
+    createHero("Valhalt_M_Normal", [2018, 7, 29], ["覇王", "The Conqueror", "ヴァルハルト"], ["霸王", "Walhart", "瓦爾哈爾特"], axe, cavalry, [17, 9, 3, 6, 1], [6, 8, 6, 9, 2], [6, 8, 11, [0, 16, 0, 3, 0]], 3, Infinity);
     // ch05 if
     createHero("Kamui_M_Normal", [2017, 2, 2], ["未来を選びし王子", "Fateful Prince", "選擇未來的王子"], ["カムイ", "Corrin", "神威"], sword, infantry, [18, 6, 6, 4, 3], [6, 7, 7, 6, 5], [6, 8, 11, 16], 3);
     createHero("Kamui_M_NewYear18", [2018, 1, 16], ["白夜で年越し", "Enjoying Tradition", "在白夜跨年"], ["カムイ", "Corrin", "神威"], bow, infantry, [16, 6, 6, 4, 3], [5, 7, 6, 9, 2], [4, 6, 8, 12], 4, Infinity);
