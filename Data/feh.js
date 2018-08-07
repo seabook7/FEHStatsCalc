@@ -137,7 +137,7 @@ var feh = {
     ];
     var staffIndexes = [
         [0, 0, 1, 1, 2],
-        ["Genny_F", "Lyn_F_Wedding"]
+        ["Jenny_F_Normal", "Lin_F_Wedding17"]
     ];
     // 创建Array.prototype.map方法使用的函数，JSLint不允许在循环中创建函数
     var makeIncreaseFunction = function (increaseValue) {
