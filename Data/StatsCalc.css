@@ -114,3 +114,10 @@ td.stat {
     text-align: right;
     width: 48px;
 }
+fieldset.options {
+    width: 730px;
+    margin-bottom: 1rem;
+}
+button {
+    float: right;
+}

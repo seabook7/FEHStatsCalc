@@ -320,7 +320,9 @@ if (!Object.values) {
         tables[1].rows[0].cells[1].appendChild(createTableFieldset(feh.text.level[langIndex], options.levelRadio.concat(createImg("Data/Icon/Plus.png", "+", 17, 21), options.mergeAlliesSelect), 2));
         tables[1].rows[0].cells[2].appendChild(createImgFieldset(feh.text.summonerSupport[langIndex], options.summonerSupportImg, 4));
         tables[1].rows[0].cells[3].appendChild(createImgFieldset(feh.text.weapon[langIndex], [options.weaponImg], 1));
-        tables[2].rows[0].cells[0].appendChild(createImgFieldset("Options", [options.onlySummonCheckbox, options.bigCheckbox, doc.createTextNode(" Sort: "), options.sortSelect, buttons[0], buttons[1]], 9));
+        var optionsFieldset = createImgFieldset("Options", [options.onlySummonCheckbox, options.bigCheckbox, doc.createTextNode(" | Sort: "), options.sortSelect, buttons[0], buttons[1]], 9);
+        optionsFieldset.className = "options";
+        tables[2].rows[0].cells[0].appendChild(optionsFieldset);
         tables.forEach(function (table) {
             doc.body.appendChild(table);
         });
